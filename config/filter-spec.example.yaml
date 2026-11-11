@@ -1,0 +1,64 @@
+# filter-spec.yaml: your screening gates for NEW leads (used by the source-screen skill).
+#
+# Copy to config/filter-spec.yaml and edit. The agent re-reads this file on every run,
+# so change it whenever your search changes; never rely on what it "remembers".
+#
+# Every gate is a hard gate unless marked `soft: true`. The agent checks gates in the
+# order listed and stops at the first hard fail, logging which gate failed.
+# Unknown data (e.g. comp not posted) is NOT a fail. It is logged as "unknown" and
+# surfaced as a question only if the lead passes everything else.
+# All values below are EXAMPLES. Nothing here is a recommendation.
+
+exclusions:
+  # Checked FIRST, before any other gate. Companies (or parent groups) you will not
+  # work for, for any rationale you choose. Matching is case-insensitive on company name
+  # and on known parent/owner when the agent can confirm it from the posting.
+  companies:
+    - "Example Holdings"
+    - "Sample Conglomerate Inc"
+  # Optional: exclude whole categories (matched against the company's own description).
+  categories:
+    - "example-excluded-category"
+
+seat:
+  # Titles that count as a fit. Matching is fuzzy; the agent quotes the exact title it saw.
+  titles_include: ["Head of", "VP", "Vice President", "Senior Director", "Director"]
+  functions_include: ["Revenue Operations", "GTM Operations", "Sales Operations", "Business Operations"]
+  titles_exclude: ["Analyst", "Coordinator", "Administrator", "Intern"]
+  reports_to_preferred: ["CRO", "CEO", "COO", "CFO"]   # soft signal, not a gate
+
+company:
+  employees_max: 1000          # set to null to disable
+  employees_min: 50
+  stages_include: ["Series B", "Series C", "Series D", "Growth", "PE-backed"]
+  sectors_boost: ["B2B SaaS", "fintech", "data infrastructure"]   # raises priority, never excludes
+
+geo:
+  # Comp floors can depend on where the work happens. The agent picks the first rule that
+  # matches the posting's location/work model and applies its floor.
+  rules:
+    - match: "remote"
+      base_floor: 180000
+    - match: "hybrid, home metro"
+      base_floor: 180000
+    - match: "on-site or relocation"
+      allowed_metros: ["Example Metro A", "Example Metro B"]
+      base_floor: 220000
+  currency: USD
+
+comp:
+  # Used only when the posting discloses comp. Undisclosed = "unknown", not a fail.
+  ote_floor: 250000
+  equity_required: false
+
+posting_age:
+  # How long the role has been public, from the ATS posting date or the job-alert email.
+  fast_days: 14        # <= this: move within 48h, look for a warm path first
+  check_days: 30       # 15..30: ask a contact "still open?" before anything else
+  skip_after_days: 30  # > this: log "aged out" and stop, unless an override below applies
+  overrides: ["reposted or edited recently", "seat was upleveled", "you have a direct line to the hiring manager"]
+
+cadence:
+  # The tracked activity stat: at least one new real attempt (application, referral ask,
+  # or new conversation) every N days. funnel-review reports against it.
+  new_attempt_every_days: 2

@@ -1,0 +1,888 @@
+{
+  "version": 1,
+  "meta": {
+    "description": "FULLY SYNTHETIC sample data. Every company, role and event is invented.",
+    "last_review": "2026-05-23"
+  },
+  "opportunities": [
+    {
+      "id": "acme-robotics-head-of-revenue-operations",
+      "company": "Acme Robotics",
+      "role": "Head of Revenue Operations",
+      "channel": "cold",
+      "source": "LinkedIn job alert",
+      "contact": "",
+      "stage": "S0",
+      "outcome": "ghosted",
+      "confidence": "high",
+      "applied_date": "2026-03-03",
+      "last_activity": "2026-03-03",
+      "next_action": "",
+      "next_action_due": "",
+      "snooze_until": "",
+      "notes": "",
+      "evidence": [
+        {
+          "stage": "S0",
+          "date": "2026-03-03",
+          "source": "Ashby acknowledgement email: 'Thanks for applying'"
+        }
+      ]
+    },
+    {
+      "id": "northwind-data-vp-gtm-operations",
+      "company": "Northwind Data",
+      "role": "VP, GTM Operations",
+      "channel": "cold",
+      "source": "Company careers page",
+      "contact": "",
+      "stage": "S0",
+      "outcome": "rejected",
+      "confidence": "high",
+      "applied_date": "2026-03-05",
+      "last_activity": "2026-03-05",
+      "next_action": "",
+      "next_action_due": "",
+      "snooze_until": "",
+      "notes": "",
+      "evidence": [
+        {
+          "stage": "S0",
+          "date": "2026-03-05",
+          "source": "Greenhouse acknowledgement email: 'Thanks for applying'"
+        }
+      ]
+    },
+    {
+      "id": "globex-analytics-director-revenue-operations",
+      "company": "Globex Analytics",
+      "role": "Director, Revenue Operations",
+      "channel": "cold",
+      "source": "LinkedIn job alert",
+      "contact": "",
+      "stage": "S0",
+      "outcome": "ghosted",
+      "confidence": "high",
+      "applied_date": "2026-03-10",
+      "last_activity": "2026-03-10",
+      "next_action": "",
+      "next_action_due": "",
+      "snooze_until": "",
+      "notes": "",
+      "evidence": [
+        {
+          "stage": "S0",
+          "date": "2026-03-10",
+          "source": "Lever acknowledgement email: 'Thanks for applying'"
+        }
+      ]
+    },
+    {
+      "id": "initech-cloud-head-of-gtm-strategy-ops",
+      "company": "Initech Cloud",
+      "role": "Head of GTM Strategy & Ops",
+      "channel": "cold",
+      "source": "LinkedIn job alert",
+      "contact": "",
+      "stage": "S1",
+      "outcome": "rejected",
+      "confidence": "high",
+      "applied_date": "2026-03-14",
+      "last_activity": "2026-03-26",
+      "next_action": "",
+      "next_action_due": "",
+      "snooze_until": "",
+      "notes": "",
+      "evidence": [
+        {
+          "stage": "S0",
+          "date": "2026-03-14",
+          "source": "Ashby acknowledgement email: 'Thanks for applying'"
+        },
+        {
+          "stage": "S1",
+          "date": "2026-03-26",
+          "source": "Calendar: '30m recruiter screen' held; recap email from recruiter same day"
+        }
+      ]
+    },
+    {
+      "id": "umbrella-payments-sr-director-revenue-operations",
+      "company": "Umbrella Payments",
+      "role": "Sr. Director, Revenue Operations",
+      "channel": "cold",
+      "source": "Job board alert",
+      "contact": "",
+      "stage": "S0",
+      "outcome": "ghosted",
+      "confidence": "high",
+      "applied_date": "2026-03-18",
+      "last_activity": "2026-03-18",
+      "next_action": "",
+      "next_action_due": "",
+      "snooze_until": "",
+      "notes": "",
+      "evidence": [
+        {
+          "stage": "S0",
+          "date": "2026-03-18",
+          "source": "Greenhouse acknowledgement email: 'Thanks for applying'"
+        }
+      ]
+    },
+    {
+      "id": "stark-ledger-head-of-business-operations",
+      "company": "Stark Ledger",
+      "role": "Head of Business Operations",
+      "channel": "cold",
+      "source": "Company careers page",
+      "contact": "",
+      "stage": "S0",
+      "outcome": "rejected",
+      "confidence": "high",
+      "applied_date": "2026-03-24",
+      "last_activity": "2026-03-24",
+      "next_action": "",
+      "next_action_due": "",
+      "snooze_until": "",
+      "notes": "",
+      "evidence": [
+        {
+          "stage": "S0",
+          "date": "2026-03-24",
+          "source": "Ashby acknowledgement email: 'Thanks for applying'"
+        }
+      ]
+    },
+    {
+      "id": "wayne-freight-vp-revenue-strategy-ops",
+      "company": "Wayne Freight",
+      "role": "VP, Revenue Strategy & Ops",
+      "channel": "cold",
+      "source": "LinkedIn job alert",
+      "contact": "",
+      "stage": "S0",
+      "outcome": "ghosted",
+      "confidence": "high",
+      "applied_date": "2026-04-01",
+      "last_activity": "2026-04-01",
+      "next_action": "",
+      "next_action_due": "",
+      "snooze_until": "",
+      "notes": "",
+      "evidence": [
+        {
+          "stage": "S0",
+          "date": "2026-04-01",
+          "source": "Lever acknowledgement email: 'Thanks for applying'"
+        }
+      ]
+    },
+    {
+      "id": "fabrikam-systems-director-gtm-operations",
+      "company": "Fabrikam Systems",
+      "role": "Director, GTM Operations",
+      "channel": "cold",
+      "source": "LinkedIn job alert",
+      "contact": "",
+      "stage": "S2",
+      "outcome": "rejected",
+      "confidence": "high",
+      "applied_date": "2026-04-08",
+      "last_activity": "2026-04-28",
+      "next_action": "",
+      "next_action_due": "",
+      "snooze_until": "",
+      "notes": "",
+      "evidence": [
+        {
+          "stage": "S0",
+          "date": "2026-04-08",
+          "source": "Greenhouse acknowledgement email: 'Thanks for applying'"
+        },
+        {
+          "stage": "S1",
+          "date": "2026-04-21",
+          "source": "Calendar: 'Intro call w/ Talent' held; follow-up email references the call"
+        },
+        {
+          "stage": "S2",
+          "date": "2026-04-28",
+          "source": "Calendar: hiring-manager interview held"
+        }
+      ]
+    },
+    {
+      "id": "tailspin-labs-head-of-revenue-operations",
+      "company": "Tailspin Labs",
+      "role": "Head of Revenue Operations",
+      "channel": "cold",
+      "source": "Job board alert",
+      "contact": "",
+      "stage": "S0",
+      "outcome": "ghosted",
+      "confidence": "high",
+      "applied_date": "2026-04-15",
+      "last_activity": "2026-04-15",
+      "next_action": "",
+      "next_action_due": "",
+      "snooze_until": "",
+      "notes": "",
+      "evidence": [
+        {
+          "stage": "S0",
+          "date": "2026-04-15",
+          "source": "Ashby acknowledgement email: 'Thanks for applying'"
+        }
+      ]
+    },
+    {
+      "id": "litware-billing-revops-lead",
+      "company": "Litware Billing",
+      "role": "RevOps Lead",
+      "channel": "cold",
+      "source": "Company careers page",
+      "contact": "",
+      "stage": "S0",
+      "outcome": "rejected",
+      "confidence": "high",
+      "applied_date": "2026-04-29",
+      "last_activity": "2026-04-29",
+      "next_action": "",
+      "next_action_due": "",
+      "snooze_until": "",
+      "notes": "",
+      "evidence": [
+        {
+          "stage": "S0",
+          "date": "2026-04-29",
+          "source": "Lever acknowledgement email: 'Thanks for applying'"
+        }
+      ]
+    },
+    {
+      "id": "woodgrove-fintech-vp-revenue-operations",
+      "company": "Woodgrove Fintech",
+      "role": "VP, Revenue Operations",
+      "channel": "cold",
+      "source": "LinkedIn job alert",
+      "contact": "",
+      "stage": "S0",
+      "outcome": "active",
+      "confidence": "high",
+      "applied_date": "2026-05-13",
+      "last_activity": "2026-05-13",
+      "next_action": "Find a warm path (2nd-degree contact at company) before nudging",
+      "next_action_due": "2026-05-29",
+      "snooze_until": "",
+      "notes": "",
+      "evidence": [
+        {
+          "stage": "S0",
+          "date": "2026-05-13",
+          "source": "Ashby acknowledgement email: 'Thanks for applying'"
+        }
+      ]
+    },
+    {
+      "id": "proseware-ai-head-of-gtm-operations",
+      "company": "Proseware AI",
+      "role": "Head of GTM Operations",
+      "channel": "cold",
+      "source": "Job board alert",
+      "contact": "",
+      "stage": "S0",
+      "outcome": "active",
+      "confidence": "high",
+      "applied_date": "2026-05-20",
+      "last_activity": "2026-05-20",
+      "next_action": "Check posting is still live; no action until day 14",
+      "next_action_due": "2026-06-03",
+      "snooze_until": "",
+      "notes": "",
+      "evidence": [
+        {
+          "stage": "S0",
+          "date": "2026-05-20",
+          "source": "Greenhouse acknowledgement email: 'Thanks for applying'"
+        }
+      ]
+    },
+    {
+      "id": "contoso-freight-director-business-operations",
+      "company": "Contoso Freight",
+      "role": "Director, Business Operations",
+      "channel": "cold",
+      "source": "Job board alert",
+      "contact": "",
+      "stage": "S0",
+      "outcome": "ghosted",
+      "confidence": "high",
+      "applied_date": "2026-04-04",
+      "last_activity": "2026-04-04",
+      "next_action": "",
+      "next_action_due": "",
+      "snooze_until": "",
+      "notes": "",
+      "evidence": [
+        {
+          "stage": "S0",
+          "date": "2026-04-04",
+          "source": "Greenhouse acknowledgement email: 'Thanks for applying'"
+        }
+      ]
+    },
+    {
+      "id": "lucerne-billing-head-of-revenue-operations",
+      "company": "Lucerne Billing",
+      "role": "Head of Revenue Operations",
+      "channel": "cold",
+      "source": "Company careers page",
+      "contact": "",
+      "stage": "S0",
+      "outcome": "active",
+      "confidence": "high",
+      "applied_date": "2026-05-18",
+      "last_activity": "2026-05-18",
+      "next_action": "Look for a referral path before following up",
+      "next_action_due": "2026-06-05",
+      "snooze_until": "",
+      "notes": "",
+      "evidence": [
+        {
+          "stage": "S0",
+          "date": "2026-05-18",
+          "source": "Lever acknowledgement email: 'Thanks for applying'"
+        }
+      ]
+    },
+    {
+      "id": "hooli-commerce-vp-revenue-operations",
+      "company": "Hooli Commerce",
+      "role": "VP, Revenue Operations",
+      "channel": "recruiter",
+      "source": "Search firm (retained)",
+      "contact": "Agency recruiter",
+      "stage": "S0",
+      "outcome": "stalled",
+      "confidence": "high",
+      "applied_date": "2026-03-07",
+      "last_activity": "2026-03-07",
+      "next_action": "",
+      "next_action_due": "",
+      "snooze_until": "",
+      "notes": "",
+      "evidence": [
+        {
+          "stage": "S0",
+          "date": "2026-03-07",
+          "source": "Search-firm email: 'submitted your profile to the client'"
+        }
+      ]
+    },
+    {
+      "id": "vandelay-logistics-director-sales-operations",
+      "company": "Vandelay Logistics",
+      "role": "Director, Sales Operations",
+      "channel": "recruiter",
+      "source": "Recruiter InMail",
+      "contact": "Agency recruiter",
+      "stage": "S1",
+      "outcome": "rejected",
+      "confidence": "high",
+      "applied_date": "2026-03-11",
+      "last_activity": "2026-03-19",
+      "next_action": "",
+      "next_action_due": "",
+      "snooze_until": "",
+      "notes": "",
+      "evidence": [
+        {
+          "stage": "S0",
+          "date": "2026-03-11",
+          "source": "Recruiter InMail accepted; client submission confirmed by email"
+        },
+        {
+          "stage": "S1",
+          "date": "2026-03-19",
+          "source": "Calendar: 'Screen w/ agency recruiter' held"
+        }
+      ]
+    },
+    {
+      "id": "massive-dynamic-head-of-revenue-operations",
+      "company": "Massive Dynamic",
+      "role": "Head of Revenue Operations",
+      "channel": "recruiter",
+      "source": "Search firm (contingent)",
+      "contact": "Agency recruiter",
+      "stage": "S2",
+      "outcome": "rejected",
+      "confidence": "high",
+      "applied_date": "2026-03-28",
+      "last_activity": "2026-04-14",
+      "next_action": "",
+      "next_action_due": "",
+      "snooze_until": "",
+      "notes": "",
+      "evidence": [
+        {
+          "stage": "S0",
+          "date": "2026-03-28",
+          "source": "Search-firm email: profile sent to client"
+        },
+        {
+          "stage": "S1",
+          "date": "2026-04-04",
+          "source": "Calendar: recruiter screen held"
+        },
+        {
+          "stage": "S2",
+          "date": "2026-04-14",
+          "source": "Calendar: 'Interview w/ CRO' held; recruiter debrief email"
+        }
+      ]
+    },
+    {
+      "id": "soylent-data-sr-director-gtm-operations",
+      "company": "Soylent Data",
+      "role": "Sr. Director, GTM Operations",
+      "channel": "recruiter",
+      "source": "In-house recruiter outreach",
+      "contact": "In-house recruiter",
+      "stage": "S4",
+      "outcome": "ghosted",
+      "confidence": "high",
+      "applied_date": "2026-04-02",
+      "last_activity": "2026-05-07",
+      "next_action": "",
+      "next_action_due": "",
+      "snooze_until": "",
+      "notes": "",
+      "evidence": [
+        {
+          "stage": "S0",
+          "date": "2026-04-02",
+          "source": "In-house recruiter outreach email; application link completed"
+        },
+        {
+          "stage": "S1",
+          "date": "2026-04-09",
+          "source": "Calendar: recruiter screen held"
+        },
+        {
+          "stage": "S2",
+          "date": "2026-04-17",
+          "source": "Calendar: hiring-manager interview held"
+        },
+        {
+          "stage": "S3",
+          "date": "2026-04-28",
+          "source": "Calendar: 3-person panel held"
+        },
+        {
+          "stage": "S4",
+          "date": "2026-05-07",
+          "source": "Email: take-home case submitted, receipt confirmed"
+        }
+      ]
+    },
+    {
+      "id": "monarch-metrics-vp-gtm-strategy-ops",
+      "company": "Monarch Metrics",
+      "role": "VP, GTM Strategy & Ops",
+      "channel": "recruiter",
+      "source": "Search firm (retained)",
+      "contact": "Agency recruiter",
+      "stage": "S1",
+      "outcome": "active",
+      "confidence": "high",
+      "applied_date": "2026-05-11",
+      "last_activity": "2026-05-19",
+      "next_action": "Recruiter promised HM slot; confirm the time",
+      "next_action_due": "2026-05-28",
+      "snooze_until": "",
+      "notes": "",
+      "evidence": [
+        {
+          "stage": "S0",
+          "date": "2026-05-11",
+          "source": "Search-firm email: submitted to client"
+        },
+        {
+          "stage": "S1",
+          "date": "2026-05-19",
+          "source": "Calendar: recruiter screen held"
+        }
+      ]
+    },
+    {
+      "id": "nimbus-payroll-vp-revenue-operations",
+      "company": "Nimbus Payroll",
+      "role": "VP, Revenue Operations",
+      "channel": "recruiter",
+      "source": "Search firm (contingent)",
+      "contact": "Agency recruiter",
+      "stage": "S0",
+      "outcome": "rejected",
+      "confidence": "high",
+      "applied_date": "2026-03-25",
+      "last_activity": "2026-03-25",
+      "next_action": "",
+      "next_action_due": "",
+      "snooze_until": "",
+      "notes": "",
+      "evidence": [
+        {
+          "stage": "S0",
+          "date": "2026-03-25",
+          "source": "Search-firm email: profile submitted to client"
+        }
+      ]
+    },
+    {
+      "id": "halcyon-data-head-of-gtm-operations",
+      "company": "Halcyon Data",
+      "role": "Head of GTM Operations",
+      "channel": "recruiter",
+      "source": "In-house recruiter outreach",
+      "contact": "In-house recruiter",
+      "stage": "S1",
+      "outcome": "ghosted",
+      "confidence": "high",
+      "applied_date": "2026-04-23",
+      "last_activity": "2026-04-30",
+      "next_action": "",
+      "next_action_due": "",
+      "snooze_until": "",
+      "notes": "",
+      "evidence": [
+        {
+          "stage": "S0",
+          "date": "2026-04-23",
+          "source": "In-house recruiter InMail; application link completed"
+        },
+        {
+          "stage": "S1",
+          "date": "2026-04-30",
+          "source": "Calendar: recruiter screen held"
+        }
+      ]
+    },
+    {
+      "id": "gringotts-ledger-head-of-revenue-operations",
+      "company": "Gringotts Ledger",
+      "role": "Head of Revenue Operations",
+      "channel": "warm",
+      "source": "Former colleague referral",
+      "contact": "Former colleague",
+      "stage": "S0",
+      "outcome": "active",
+      "confidence": "medium",
+      "applied_date": "2026-03-17",
+      "last_activity": "2026-03-17",
+      "next_action": "Ask the referrer for a status read before nudging the hiring manager",
+      "next_action_due": "2026-06-14",
+      "snooze_until": "2026-06-14",
+      "notes": "",
+      "evidence": [
+        {
+          "stage": "S0",
+          "date": "2026-03-17",
+          "source": "Referral email from former colleague cc'ing the hiring manager"
+        }
+      ]
+    },
+    {
+      "id": "oceanic-logistics-director-revenue-operations",
+      "company": "Oceanic Logistics",
+      "role": "Director, Revenue Operations",
+      "channel": "warm",
+      "source": "Former manager referral",
+      "contact": "Former manager",
+      "stage": "S1",
+      "outcome": "closed-by-candidate",
+      "confidence": "high",
+      "applied_date": "2026-03-20",
+      "last_activity": "2026-03-27",
+      "next_action": "",
+      "next_action_due": "",
+      "snooze_until": "",
+      "notes": "Candidate withdrew: role was IC-heavy",
+      "evidence": [
+        {
+          "stage": "S0",
+          "date": "2026-03-20",
+          "source": "Referral email from former manager"
+        },
+        {
+          "stage": "S1",
+          "date": "2026-03-27",
+          "source": "Calendar: screen with People team held"
+        }
+      ]
+    },
+    {
+      "id": "bluth-cloud-vp-revenue-operations",
+      "company": "Bluth Cloud",
+      "role": "VP, Revenue Operations",
+      "channel": "warm",
+      "source": "Investor intro",
+      "contact": "Investor contact",
+      "stage": "S2",
+      "outcome": "closed-filled",
+      "confidence": "high",
+      "applied_date": "2026-03-31",
+      "last_activity": "2026-04-16",
+      "next_action": "",
+      "next_action_due": "",
+      "snooze_until": "",
+      "notes": "",
+      "evidence": [
+        {
+          "stage": "S0",
+          "date": "2026-03-31",
+          "source": "Referral email from investor contact"
+        },
+        {
+          "stage": "S1",
+          "date": "2026-04-07",
+          "source": "Calendar: screen held"
+        },
+        {
+          "stage": "S2",
+          "date": "2026-04-16",
+          "source": "Calendar: CEO interview held"
+        }
+      ]
+    },
+    {
+      "id": "tyrell-analytics-vp-gtm-operations",
+      "company": "Tyrell Analytics",
+      "role": "VP, GTM Operations",
+      "channel": "warm",
+      "source": "Board-member referral",
+      "contact": "Board member",
+      "stage": "S5",
+      "outcome": "rejected",
+      "confidence": "high",
+      "applied_date": "2026-04-09",
+      "last_activity": "2026-05-08",
+      "next_action": "",
+      "next_action_due": "",
+      "snooze_until": "",
+      "notes": "",
+      "evidence": [
+        {
+          "stage": "S0",
+          "date": "2026-04-09",
+          "source": "Referral email from board member"
+        },
+        {
+          "stage": "S1",
+          "date": "2026-04-15",
+          "source": "Calendar: screen held"
+        },
+        {
+          "stage": "S2",
+          "date": "2026-04-22",
+          "source": "Calendar: CRO interview held"
+        },
+        {
+          "stage": "S4",
+          "date": "2026-05-01",
+          "source": "Email: case study presented; thank-you reply received"
+        },
+        {
+          "stage": "S5",
+          "date": "2026-05-08",
+          "source": "Recruiter email: 'final round with the CEO'; calendar event held"
+        }
+      ]
+    },
+    {
+      "id": "prestige-worldwide-head-of-revenue-operations",
+      "company": "Prestige Worldwide",
+      "role": "Head of Revenue Operations",
+      "channel": "warm",
+      "source": "Former colleague referral",
+      "contact": "Former colleague",
+      "stage": "S6",
+      "outcome": "active",
+      "confidence": "high",
+      "applied_date": "2026-04-14",
+      "last_activity": "2026-05-22",
+      "next_action": "Review offer terms; reply with questions",
+      "next_action_due": "2026-05-27",
+      "snooze_until": "",
+      "notes": "",
+      "evidence": [
+        {
+          "stage": "S0",
+          "date": "2026-04-14",
+          "source": "Referral email from former colleague"
+        },
+        {
+          "stage": "S1",
+          "date": "2026-04-21",
+          "source": "Calendar: screen held"
+        },
+        {
+          "stage": "S2",
+          "date": "2026-04-29",
+          "source": "Calendar: CRO interview held"
+        },
+        {
+          "stage": "S3",
+          "date": "2026-05-06",
+          "source": "Calendar: panel held"
+        },
+        {
+          "stage": "S5",
+          "date": "2026-05-15",
+          "source": "Recruiter email: 'final conversation'; calendar event held"
+        },
+        {
+          "stage": "S6",
+          "date": "2026-05-22",
+          "source": "Email: written offer letter received"
+        }
+      ]
+    },
+    {
+      "id": "dunder-paper-co-director-gtm-strategy",
+      "company": "Dunder Paper Co",
+      "role": "Director, GTM Strategy",
+      "channel": "warm",
+      "source": "Community peer intro",
+      "contact": "Community peer",
+      "stage": "S1",
+      "outcome": "active",
+      "confidence": "high",
+      "applied_date": "2026-05-04",
+      "last_activity": "2026-05-14",
+      "next_action": "Send thank-you + work sample",
+      "next_action_due": "2026-05-26",
+      "snooze_until": "",
+      "notes": "",
+      "evidence": [
+        {
+          "stage": "S0",
+          "date": "2026-05-04",
+          "source": "Intro email from community peer"
+        },
+        {
+          "stage": "S1",
+          "date": "2026-05-14",
+          "source": "Calendar: screen held"
+        }
+      ]
+    },
+    {
+      "id": "cyberdyne-payments-vp-revenue-operations",
+      "company": "Cyberdyne Payments",
+      "role": "VP, Revenue Operations",
+      "channel": "warm",
+      "source": "Former manager referral",
+      "contact": "Former manager",
+      "stage": "S2",
+      "outcome": "active",
+      "confidence": "high",
+      "applied_date": "2026-05-08",
+      "last_activity": "2026-05-21",
+      "next_action": "Hiring manager said 'next steps this week'; nudge if silent",
+      "next_action_due": "2026-05-30",
+      "snooze_until": "",
+      "notes": "",
+      "evidence": [
+        {
+          "stage": "S0",
+          "date": "2026-05-08",
+          "source": "Referral email from former manager"
+        },
+        {
+          "stage": "S1",
+          "date": "2026-05-13",
+          "source": "Calendar: screen held"
+        },
+        {
+          "stage": "S2",
+          "date": "2026-05-21",
+          "source": "Calendar: hiring-manager interview held"
+        }
+      ]
+    },
+    {
+      "id": "pied-piper-data-head-of-revenue-operations",
+      "company": "Pied Piper Data",
+      "role": "Head of Revenue Operations",
+      "channel": "cold",
+      "source": "LinkedIn job alert",
+      "contact": "",
+      "stage": "S-1",
+      "outcome": "active",
+      "confidence": "high",
+      "applied_date": "",
+      "last_activity": "",
+      "next_action": "Screen against filter spec",
+      "next_action_due": "2026-05-30",
+      "snooze_until": "",
+      "notes": "",
+      "evidence": []
+    },
+    {
+      "id": "wingtip-software-vp-gtm-operations",
+      "company": "Wingtip Software",
+      "role": "VP, GTM Operations",
+      "channel": "cold",
+      "source": "Job board alert",
+      "contact": "",
+      "stage": "S-1",
+      "outcome": "active",
+      "confidence": "high",
+      "applied_date": "",
+      "last_activity": "",
+      "next_action": "Screen against filter spec",
+      "next_action_due": "2026-05-30",
+      "snooze_until": "",
+      "notes": "",
+      "evidence": []
+    },
+    {
+      "id": "adventure-works-ai-director-revenue-operations",
+      "company": "Adventure Works AI",
+      "role": "Director, Revenue Operations",
+      "channel": "warm",
+      "source": "Former colleague mention",
+      "contact": "",
+      "stage": "S-1",
+      "outcome": "active",
+      "confidence": "high",
+      "applied_date": "",
+      "last_activity": "",
+      "next_action": "Screen against filter spec",
+      "next_action_due": "2026-05-30",
+      "snooze_until": "",
+      "notes": "",
+      "evidence": []
+    }
+  ],
+  "removed": [
+    {
+      "id": "globex-analytics-revops-analyst",
+      "key": "globexanalytics|revopsanalyst",
+      "company": "Globex Analytics",
+      "role": "RevOps Analyst",
+      "date": "2026-03-11",
+      "why": "screened out before applying: IC seat"
+    }
+  ],
+  "answers": [
+    {
+      "key": "gringotts-ledger-head-of-revenue-operations:close-stalled",
+      "question": "Stalled 30d+. Close, nudge or keep?",
+      "answer": "keep:2026-06-13",
+      "date": "2026-05-16"
+    }
+  ]
+}

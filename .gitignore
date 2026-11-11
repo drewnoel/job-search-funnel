@@ -1,0 +1,11 @@
+# Real pipeline data never goes in git.
+data/
+/funnel.md
+/funnel.html
+*.tmp
+config/filter-spec.yaml
+
+# Python / OS noise
+__pycache__/
+*.pyc
+.DS_Store
